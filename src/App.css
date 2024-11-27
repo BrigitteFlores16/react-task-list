@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(171, 253, 227);
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.task-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-list {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  margin-bottom: 10px;
+}
+
+.task-header {
+  display: flex;
+  align-items: center;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.tag {
+  padding: 12px 8px;
+  color: white;
+}
+
+.backlog {
+  background-color: black;
+}
+
+.in_progress {
+  background-color: purple;
+}
+
+.completed {
+  background-color: rgb(15, 0, 128);
+}
